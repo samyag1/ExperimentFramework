@@ -1,0 +1,11 @@
+# universal files to exclude
+*.zip
+*.exe
+
+# python droppings
+*.py~
+*.pyc
+*.py#
+
+# don't include logs for this project
+sampleScripts/logs/*
