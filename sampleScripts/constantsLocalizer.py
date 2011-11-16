@@ -1,0 +1,22 @@
+# Localizer constants
+OBJECT_LOCALIZER_RUN_NOS = [1,2]
+RETINOTOPY_LOCALIZER_RUN_NOS = [3,4,5,6]
+LOCALIZER_DUMMIES = 5
+LOCALIZER_OBJECTS_PATH = 'objects'
+LOCALIZER_OBJECTS_ORIGINALS_PATH = "originals"
+LOCALIZER_OBJECTS_CREATEFILES_PATH = 'createFiles'
+LOCALIZER_RETINOTOPY_PATH = 'retinotopy'
+LOCALIZER_RET_CCW_PATH = 'counterClockwise'
+LOCALIZER_RET_CW_PATH = 'clockwise'
+LOCALIZER_RET_CONCENTRIC_PATH = 'concentric'
+LOCALIZER_RET_EXPANDING_PATH = 'expanding'
+LOCALIZER_OBJECT_BREAK_LENGTH = 160 # taken from the Gallant lab original stimOrder files
+LOCALZER_OBJECT_FOLDERS = ['Body_parts', 'Faces', 'Objects', 'Scenes', 'Scrambled_objects']
+
+# Stim creation constants
+BLANK_FRAME_FILENAME = 'blankImage.jpg'
+GROUPINGS = 4
+IMAGES_PER_FOLDER = 80
+IMAGES_PER_GROUPING = IMAGES_PER_FOLDER / GROUPINGS
+GROUPING_ORDERINGS = [(1,2,3,4,5),(5,1,3,2,4),(4,1,5,2,3),(3,1,4,2,5)]
+TYPE1INDEX1_FILENAME = 'Type1Index1List.csv'

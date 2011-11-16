@@ -1,0 +1,9 @@
+# lumtest constants
+LUMTEST_DUMMIES = 8
+LUMTEST_DARK_IMAGE_INDEX = 0
+LUMTEST_LIGHT_IMAGE_INDEX = 1
+LUMTEST_STIM_FILENAME = 'stimOrder_LumTest%i.csv'
+LUMTEST_FILELIST_FILENAME = 'fileList_LumTest%i.csv'
+LUMTEST_FIXATION_COLOR = (0,1,1,1)
+LUMTEST_VISUAL_ANGLE_FILENAME = 'visualAngleMeasurements_Subj%02i_LumTest.csv'
+
